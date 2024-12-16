@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mark's Portfolio for CS 110">
+    <title>Mark's Portfolio for CS 110</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about, .skills, .contact {
+            margin-bottom: 40px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .skill-bar {
+            background-color: #444;
+            border-radius: 5px;
+            width: 100%;
+            height: 20px;
+            margin-bottom: 10px;
+        }
+
+        .skill-level {
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        .skill-level.java { background-color: #4CAF50; }
+        .skill-level.c { background-color: #2196F3; }
+        .skill-level.cpp { background-color: #FF9800; }
+        .skill-level.problem-solving { background-color: #FF5722; }
+        .skill-level.communication { background-color: #9C27B0; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Mark Dela Cruz</h1>
+        <p>Web Developer | Programmer | Problem Solver</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mark Dela Cruz, a passionate web developer and programmer with a focus on problem-solving. I enjoy working with various programming languages and technologies to create efficient and functional solutions. My interests include software development, algorithm design, and tackling challenging problems.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I have acquired over time:</p>
+
+        <p><strong>Java</strong> - 20%</p>
+        <div class="skill-bar">
+            <div class="skill-level java" style="width: 20%;"></div>
+        </div>
+
+        <p><strong>C</strong> - 30%</p>
+        <div class="skill-bar">
+            <div class="skill-level c" style="width: 30%;"></div>
+        </div>
+
+        <p><strong>C++</strong> - 10%</p>
+        <div class="skill-bar">
+            <div class="skill-level cpp" style="width: 10%;"></div>
+        </div>
+
+        <p><strong>Problem Solving</strong> - 50%</p>
+        <div class="skill-bar">
+            <div class="skill-level problem-solving" style="width: 50%;"></div>
+        </div>
+
+        <p><strong>Communication</strong> - 60%</p>
+        <div class="skill-bar">
+            <div class="skill-level communication" style="width: 60%;"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Feel free to reach out if you're interested in working together or if you have any questions.</p>
+        <p>Email: <a href="mailto:markdarrendelacruz08@gmail.com" style="color: #FF9800;">markdarrendelacruz08@gmail.com</a></p>
+        <p>Contact #: <a href="tel:+639620527409" style="color: #FF9800;">09620527409</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mark Dela Cruz. All Rights Reserved.</p>
+        <p>Follow me on <a href="https://www.facebook.com/mark.dela.cruz.696822/" target="_blank">Facebook</a>, <a href="https://www.instagram.com/coco_maku/" target="_blank">Instagram</a>.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
